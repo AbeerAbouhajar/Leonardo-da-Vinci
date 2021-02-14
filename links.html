@@ -6,9 +6,145 @@
 
 <body>
 
-    <h1 id="heading"> Who is Da Vinci? </h1>
 
-    <iframe id="video" width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
-    </iframe>
+    <div id="mySidenav" class="sidenav">
 
+        <a href="index.html">HomePage</a>
+        <a href="about.html">About</a>
+        <a href="Art.html">Drawing Gallery</a>
+        <a href="monalisa.html">Mona-Lisa</a>
+        <a href="links.html">Links </a>>
+    </div>
+
+    <div>
+        <h1 id="heading"> Links & Videos </h1>
+
+
+    </div>
+
+    <div id="middle">
+
+        <a style=" display: flex;;position: relative;padding-left: 31px;color:rgb(23, 51, 179);" href="https://en.wikipedia.org/wiki/Leonardo_da_Vinci">Read More About Leonardo-da-Vinci</a>
+        <img src=https://www.biography.com/.image/t_share/MTY2MzU4MjUzMDA4MDcwMzE4/portrait-of-leonardo-da-vinci-1452-1519-getty.jpg>
+        <hr>
+        <a style=" display: flex;;position: relative;padding-left: 31px;color:rgb(23, 51, 179);" href="https://en.wikipedia.org/wiki/Codex_Leicester">Read More About da-Vinci book<br>Codex Leicester</a>
+        <img id=img2 src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQijPJ90E92sBiI_V0wuTle0P-eh8lwHWzf4ufkCAiDRN_50dDX>
+        <hr>
+        <a style=" display: flex;;position: relative;padding-left: 31px;color:rgb(23, 51, 179);" href="https://www.britannica.com/list/10-famous-artworks-by-leonardo-da-vinci">Read More About da-Vinci's paintings<br>The Da Vinci Code</a>
+        <img id=img2 src=https://images.theconversation.com/files/271756/original/file-20190430-136787-ya3mct.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop>
+        <hr>
+        <iframe width="500" height="250" src="https://www.youtube.com/embed/DPuyl6KZD50">
+        </iframe>
+
+        <hr>
+        <div>
+            <h1 id=h>Tell us what your top 2 favourite Da-Vinci painting!!</h1>
+
+
+            <form action="https://i.pinimg.com/originals/d4/0d/56/d40d56be9eb1570ec9920c9f8b8cf410.jpg">
+                <label for="fname">Fave Painting:</label><br>
+                <input type="text" id="fname" name="fname" value=""><br>
+                <label for="lname">Fave Painting</label><br>
+                <input type="text" id="lname" name="lname" value=""><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+    </div>
+
+
+    </table>
 </body>
+
+<style>
+    body {
+        background-image: url(https://wallpaperaccess.com/full/1811671.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 60%;
+        background-position: left 90% right 00px bottom 66%;
+        padding-top: 4%;
+    }
+    
+    #heading {
+        display: block;
+        font-size: 2em;
+        color: rgb(0, 0, 0);
+        margin-block-start: 0.60em;
+        margin-block-end: 0.6em;
+        margin-top: -1em;
+        margin-inline-start: 164px;
+        margin-inline-end: 13px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        border: 8px solid rgb(39, 39, 39);
+    }
+    
+    #video {
+        margin-left: 230px;
+    }
+    
+    #middle {
+        background-color: rgb(200 182 142 / 59%);
+        width: 750px;
+        padding: 20px;
+        padding-bottom: 50px;
+        border-radius: 0px 0px 8px 8px;
+        border-width: 5px;
+        border-color: rgb(0, 0, 0);
+        border-style: none double double;
+        margin-left: 420px;
+        text-align: center;
+    }
+    
+    .sidenav {
+        height: 100%;
+        width: 160px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+    
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+    }
+    
+    .sidenav a:hover {
+        color: #ffffff;
+    }
+    
+    img {
+        display: block;
+        margin-left: 35px;
+        margin-right: auto;
+        width: 37%;
+    }
+    
+    #img2 {
+        display: block;
+        margin-left: 35px;
+        margin-right: auto;
+        width: 28%;
+    }
+    
+    #h {
+        display: flex;
+        position: relative;
+        padding-left: 31px;
+        color: rgb(0, 0, 0);
+        font-size: 17px;
+        font-family: sans-serif;
+    }
+</style>
+
+</html>
