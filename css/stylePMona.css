@@ -1,0 +1,99 @@
+body {
+    background-image: url(https://wallpaperaccess.com/full/1811671.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 60%;
+    background-position: left 90% right 00px bottom 66%;
+    padding-top: 4%;
+}
+
+#heading {
+    display: block;
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    margin-block-start: 0.60em;
+    margin-block-end: 0.6em;
+    margin-top: -1em;
+    margin-inline-start: 164px;
+    margin-inline-end: 13px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border: 8px solid rgb(39, 39, 39);
+}
+
+#video {
+    margin-left: 230px;
+}
+
+#middle {
+    background-color: rgb(200 182 142 / 59%);
+    width: 750px;
+    padding: 20px;
+    padding-bottom: 50px;
+    border-radius: 0px 0px 8px 8px;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+    border-style: none double double;
+    margin-left: 420px;
+    text-align: center;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #ffffff;
+}
+
+#h2 {
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    font-family: -webkit-pictograph;
+    text-align: left;
+    margin: auto;
+}
+
+#pg {
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+img {
+    display: block;
+    margin-left: 159px;
+    margin-right: auto;
+    width: 52%;
+    border-radius: 0%;
+}
+
+#h {
+    display: block;
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    font-family: -webkit-pictograph;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(124, 76, 0);
+}
+
+* {
+    box-sizing: border-box;
+}
