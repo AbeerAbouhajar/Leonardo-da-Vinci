@@ -58,7 +58,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(189, 189, 189);
     overflow-x: hidden;
     padding-top: 20px;
 }
@@ -66,11 +66,11 @@ body {
 .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
     color: #000000;
     display: block;
 }
 
 .sidenav a:hover {
-    color: #8cca27;
+    color: #78be06;
 }
